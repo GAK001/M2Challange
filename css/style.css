@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1000px) {
+  .portfolio3 {
+    margin-left: 0 px;
+  }
+  #myName {
+    font-size: 16px;
+  }
+  #contact a {
+    font-size: 12px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#header {
+  height: 100px;
+  background-color: rgb(60, 60, 60);
+  color: black;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  grid-area: "myName nav";
+}
+
+#myName {
+  background-color: lightblue;
+  float: left;
+  padding-left: 50px;
+}
+
+#nav {
+  padding-right: 60px;
+}
+#nav ul {
+  float: right;
+}
+#nav li {
+  float: left;
+  padding-left: 40px;
+  list-style: none;
+}
+
+#nav a {
+  color: lightblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#hero-banner {
+  height: 360px;
+  background: url("../images/02-hero-bg.jpg");
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  background-size: cover;
+}
+
+#hero-banner h2 {
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: lightblue;
+}
+
+.page-section {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-area: "title content";
+}
+
+.title {
+  text-align: right;
+  padding-right: 10px;
+  color: lightblue;
+  font-size: 36px;
+}
+
+.content {
+  border-left: 2px solid black;
+  margin-left: 30px;
+  padding-left: 30px;
+  max-width: 800px;
+}
+
+.contact a {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.workImgs {
+  border-left: 2px solid black;
+  margin-left: 30px;
+  padding-left: 30px;
+  display: inline;
+}
+
+.workImgs :hover {
+  opacity: 1;
+}
+
+.portfolio1 {
+  height: 300px;
+  width: 810px;
+  background: url("../images/02-portfolio-1.jpg");
+  border: 6px solid lightblue;
+  margin-bottom: 10px;
+  opacity: 0.7;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.portfolio1,
+.portfolio2 h3 {
+  background-color: lightblue;
+}
+
+.portfolio {
+  height: 200px;
+  width: 400px;
+  border: 6px solid lightblue;
+  margin-bottom: 10px;
+  opacity: 0.7;
+  float: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.portfolio2 {
+  background: url("../images/02-portfolio-2.jpg");
+  background-size: cover;
+}
+
+.portfolio3 {
+  background: url("../images/02-portfolio-3.jpg");
+  background-size: cover;
+  margin-left: 10px;
+}
+.portfolio4 {
+  background: url("../images/02-portfolio-4.jpg");
+  background-size: cover;
+}
+.portfolio5 {
+  background: url("../images/02-run-buddy.jpg");
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.desc {
+  background-color: lightblue;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
